@@ -8,4 +8,8 @@ class Song
     @@all.push(self)
   end
   
+  def self.all
+    @@all
+  end
+  
 end
